@@ -1,0 +1,18 @@
+:root{--bg:#fbfaf7;--text:#22231f;--muted:#6b6d66;--line:#e4e2db;--accent:#c46a2b;--card:#ffffff}
+@media (prefers-color-scheme:dark){:root{--bg:#17181a;--text:#e9e7e1;--muted:#a3a49e;--line:#33343a;--accent:#f0a067;--card:#202125}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic UI",system-ui,sans-serif;line-height:1.85;font-size:16px}
+header,main,footer{max-width:760px;margin:0 auto;padding:0 16px}
+header{padding-top:20px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.brand{color:var(--text);text-decoration:none;font-weight:800;letter-spacing:.04em}
+main{padding-top:24px;padding-bottom:48px}
+h1{font-size:26px;margin:0 0 20px;line-height:1.4}
+h2{font-size:18px;margin:32px 0 8px;padding-left:10px;border-left:4px solid var(--accent)}
+.kicker{color:var(--accent);font-weight:700;margin:0 0 4px;font-size:14px}
+a{color:var(--accent)}
+ul{padding-left:1.3em}
+footer{color:var(--muted);font-size:13px;padding-top:16px;padding-bottom:32px;border-top:1px solid var(--line)}
+.apps{display:grid;gap:12px;margin-top:16px}
+.app{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.app h2{margin:0 0 4px;border:0;padding:0}
+.app p{margin:0 0 8px;color:var(--muted);font-size:14px}
